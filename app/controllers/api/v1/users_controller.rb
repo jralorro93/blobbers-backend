@@ -17,10 +17,10 @@ class Api::V1::UsersController < ApplicationController
   private
 
   def user_params
-    params.permit(:color, :size, :name)
+    params.permit(:score, :name)
   end
 
   def find_User
     @user = User.find(params[:id])
   end
-end 
+end

@@ -8,11 +8,5 @@
 User.destroy_all
 Blobber.destroy_all
 
-User.create(name:"Mere Mere", color: "Green", size: 1)
-User.create(name:"Jep", color: "Red", size: 1)
-
-
-Blobber.create(color: "Green")
-Blobber.create(color: "Red")
-Blobber.create(color: "Blue")
-Blobber.create(color: "Yellow")
+User.create(name:"Mere Mere", score: 0)
+User.create(name:"Jep", score: 0)

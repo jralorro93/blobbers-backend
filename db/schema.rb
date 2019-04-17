@@ -17,15 +17,13 @@ ActiveRecord::Schema.define(version: 2019_04_12_203658) do
 
   create_table "blobbers", force: :cascade do |t|
     t.integer "user_id"
-    t.string "color"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
-    t.string "color"
-    t.integer "size"
+    t.integer "score"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

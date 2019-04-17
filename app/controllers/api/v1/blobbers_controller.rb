@@ -17,7 +17,7 @@ end
 private
 
 def blobber_params
-  params.permit(:color)
+  params.permit(:user_id)
 end
 
 def find_blobber

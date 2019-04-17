@@ -1,4 +1,4 @@
 class UserSerializer < ActiveModel::Serializer
-  attributes :name, :id, :color, :size
+  attributes :name, :score, :id
   has_many :blobbers
 end

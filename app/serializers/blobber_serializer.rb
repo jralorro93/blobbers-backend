@@ -1,4 +1,4 @@
 class BlobberSerializer < ActiveModel::Serializer
-  attributes :id, :color
+  attributes :id
   belongs_to :user
 end
